@@ -12,6 +12,12 @@ A local multi-agent Retrieval-Augmented Generation (RAG) system built with LangG
 - Agent trace for debugging and demos
 - Local memory with SQLite checkpoints
 
+## Demo
+
+Example query output with source citations, confidence note, and agent trace:
+
+![Demo](assets/demo.png)
+
 ## Architecture
 
 The workflow uses six agents:
