@@ -45,14 +45,14 @@ Create and activate a virtual environment:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-
+```
 ## Quick Start
 
 ### Ingest ERCOT documents
 
 ```bash
 python multi_agent_rag_local_Ercot.py ingest --data-dir data
-
+```
 # Ask a question
 
 ```bash
@@ -60,8 +60,9 @@ python multi_agent_rag_local_Ercot.py ask \
   --query "What are the DAM and RTM responsibilities under ERCOT protocols?" \
   --thread-id demo \
   --show-trace
-
+```
 # Start interactive chat
 
 ```bash
 python multi_agent_rag_local_Ercot.py chat --show-trace
+```
